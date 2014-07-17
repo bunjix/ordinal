@@ -1,6 +1,6 @@
 ##Description
 
-Small library to get ordinal suffix for int value base on `Locale`.
+Small library to get ordinal suffix for int value base on `java.util.Locale`.
 
 ##Usage
 
