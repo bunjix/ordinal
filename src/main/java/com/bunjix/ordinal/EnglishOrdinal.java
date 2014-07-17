@@ -5,7 +5,7 @@ class EnglishOrdinal extends Ordinal {
     private static final String[] SUFFIX = new String[] {TH, "st", "nd", "rd", TH, TH, TH, TH, TH, TH};
 
     @Override
-    public String getOrdinal(int value) {
+    public String getSuffix(int value) {
         if ((value %100) >= 11 && (value%100) <= 13) {
             return TH;
         } else {

@@ -6,7 +6,7 @@ class FrenchOrdinal extends Ordinal {
     private static final String OTHER = "ème";
 
     @Override
-    public String getOrdinal(int value) {
+    public String getSuffix(int value) {
         return value == 1 ? FIRST : OTHER;
     }
 }
